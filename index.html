@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handlee&family=Mulish&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    
 </head>
 <body>
-    <header>
+    <header class="header">
         <!-- <svg width="70" height="65">
             <use xlink:href="./images/logo.svg"></use>
         </svg> -->
 
-        <nav>
-            <ul>
+        <nav class="navigation">
+            <ul class="navigation-list">
 <li><a href="./index.html">Home</a></li>
 <li><a href="#">the hut</a></li>
 <li><a href="#">The area</a></li>
@@ -28,32 +36,32 @@
             <use xlink:href="./images/denmark.svg"></use>
         </svg> -->
 
-        <button>Book Now</button>
+        <button type="button" class="button-book">Book Now</button>
     </header>
 
 
     <main>
-<section>
-    <h1>Find peace in the Forest</h1>
-    <p>Come and stay in out hut hotel near Mariager Fjord in Denmark</p>
+<section class="hero-section">
+    <h1 class="hero-title">Find peace in the Forest</h1>
+    <p class="hero-text">Come and stay in out hut hotel near Mariager Fjord in Denmark</p>
     <!-- <svg width="33" height="15">
                 <use xlink:href="./images/back copy.svg"></use>
             </svg> -->
             <!-- <svg width="33" height="15">
                         <use xlink:href="./images/back copy 2.svg"></use>
                     </svg> -->
-    <button>Book Now</button>
+    <button type="button" class="button-book big">Book Now</button>
     <p>from €3.200 per night</p>
 </section>
 
 
-<section>
-<h2>The Cabins</h2>
-<p>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have
+<section class="cabins-section">
+<h2 class="cabins-title">The Cabins</h2>
+<p class="cabins-text">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have
 an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof,
 surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall,
 old trees that go through the entire cottage from floor to ceiling.</p>
-<a href="#">Read More</a>
+<a class="cabins-link" href="#">Read More</a>
 <img src="./images/the-bed-features.jpg" alt="nice view from the window">
 
 <ul>
@@ -68,28 +76,40 @@ old trees that go through the entire cottage from floor to ceiling.</p>
 
 
 
-<section>
-<h2>The Forest</h2>
-<p>Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have
+<section class="forest-section">
+<h2 class="forest-title">The Forest</h2>
+<p class="forest-text">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have
 an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof,
 surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall,
 old trees that go through the entire cottage from floor to ceiling.</p>
 
-<a href="#">Read More</a>
+<a class="forest-link" href="#">Read More</a>
 
 <!-- map -->
 </section>
 
 
-<section>
-<h2>Facilities</h2>
+<section class="facilities-section">
+<h2 class="facilities-title">Facilities</h2>
 <ul>
 <!-- 12 svg -->
-   
+   <li>Mini fridge</li>
+   <li>Kitchenette</li>
+   <li>Coffee machine</li>
+   <li>Electric tea kettle</li>
+   <li>Parking</li>
+   <li>Breathtaking views</li>
+   <li>Floor heating</li>
+   <li>230V</li>
+   <li>Parking</li>
+   <li>Shower</li>
+   <li>Flushing toilets</li>
+   <li>Bedding & towels</li>
 </ul>
 </section>
 
-<section>
+<section class="about-section">
+    <h2 class="visually-hidden">Невидимый заголовок для семантики</h2>
     <ul>
         <li>
            <img src="./images/more_about_1.jpg" alt="">
@@ -108,10 +128,9 @@ old trees that go through the entire cottage from floor to ceiling.</p>
 </a>
 </section>
 
-<section>
-
-<h2>Stay in touch with us</h2>    
-<address>
+<section class="contacts-section">
+<h2 class="contacts-title">Stay in touch with us</h2>    
+<address class="address">
     <p>Vesterborg, Denmark</p>
     <a href="tel:+123 456 789 000">+123 456 789 000</a>
     <a href="tomail:info@theglasshuts.com">info@theglasshuts.com</a>
@@ -120,28 +139,29 @@ old trees that go through the entire cottage from floor to ceiling.</p>
 
         <li>
             <a href="#">
-            <svg width="50" height="50">
+            <!-- <svg width="50" height="50">
                 <use xlink:href="./images/instagram.svg"></use>
-            </svg>
+            </svg> -->
+            Инстаграм
         </a>
     </li>
         <li>
             <a href="#">
-            <svg width="50" height="50">
+            <!-- <svg width="50" height="50">
                 <use xlink:href="./images/facebook.svg"></use>
-            </svg>
+            </svg> -->
+            Фейсбук
         </a>
     </li>
         <li>
             <a href="#">
-            <svg width="50" height="50">
+            <!-- <svg width="50" height="50">
                 <use xlink:href="./images/twitter.svg"></use>
-            </svg>
+            </svg> -->
+            Твиттер
         </a>
     </li>
     </ul>
-   
-
    
 
     
@@ -149,17 +169,17 @@ old trees that go through the entire cottage from floor to ceiling.</p>
 </address>
 
 <img src="./images/address_photo.jpg" alt="">
-<button>Book Now</button>
+<button type="button" class="button-book big">Book Now</button>
 <p>from €3.200 per night</p>
 </section>
     </main>
 
 
-    <footer>
-<p>Newsletter</p>
+    <footer class="footer">
+<h3 class="footer-title">Newsletter</h3>
 
 <!-- <form action=""></form> -->
-<p>&copy; 2021 The Glass Huts</p>
+<p class="footer-copyright">&copy; 2021 The Glass Huts</p>
 
 <ul>
     <li><a href="#">TERMS AND CONDITIONS</a></li>
@@ -169,24 +189,28 @@ old trees that go through the entire cottage from floor to ceiling.</p>
     
 <ul>
     <li>
-        <svg>
+        <!-- <svg>
             <use xlink:href="./images/paypal-logo 1.svg"></use>
-        </svg>
+        </svg> -->
+        Pay Pal
     </li>
     <li>
-        <svg>
+        <!-- <svg>
             <use xlink:href="./images/master_card.svg"></use>
-        </svg>
+        </svg> -->
+        Master Card
     </li>
     <li>
-        <svg>
+        <!-- <svg>
             <use xlink:href="./images/visa.svg"></use>
-        </svg>
+        </svg> -->
+        Visa
     </li>
     <li>
-        <svg>
+        <!-- <svg>
             <use xlink:href="./images/bank_transfer.svg"></use>
-        </svg>
+        </svg> -->
+        Bank Transfer
     </li>
 </ul>
     </footer>
