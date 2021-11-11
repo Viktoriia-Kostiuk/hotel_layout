@@ -1,6 +1,7 @@
 /* font-family: 'Handlee', cursive;
 font-family: 'Mulish', sans-serif;
-font-family: 'Open Sans', sans-serif; */
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif; */
 
 html {
   box-sizing: border-box;
@@ -46,11 +47,17 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
+
 .header {
   border: 1px solid tomato;
 }
 .navigation-list a {
-  font-family: DIN;
+  font-family: "Open Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -61,7 +68,7 @@ img {
 
 .button-book {
   background-color: #5b6460;
-  font-family: DIN;
+  font-family: "Open Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -76,14 +83,24 @@ img {
 .button-book:focus {
   background-color: #808e88;
 }
-
+.button-price {
+  background-color: #e9ece0;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333333;
+}
+.price {
+  font-size: 20px;
+  line-height: 1.4;
+}
 .hero-section {
   height: 700px;
   border: 1px solid tomato;
 }
 .hero-title {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 300;
   font-size: 70px;
   line-height: 1.03;
@@ -92,7 +109,7 @@ img {
 }
 
 .hero-text {
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -105,16 +122,12 @@ color: #FFFFFF; */
   border: 1px solid tomato;
 }
 .cabins-title {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 40px;
   line-height: 1;
   color: #5b6460;
 }
 .cabins-text {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.87;
@@ -122,8 +135,6 @@ color: #FFFFFF; */
   color: #000000;
 }
 .cabins-link {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.87;
@@ -136,9 +147,7 @@ color: #FFFFFF; */
 }
 
 .forest-title {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 40px;
   line-height: 1;
 
@@ -146,8 +155,6 @@ color: #FFFFFF; */
 }
 
 .forest-text {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.87;
@@ -155,9 +162,8 @@ color: #FFFFFF; */
   color: #333333;
 }
 .forest-link {
-  font-family: Open Sans;
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   border-bottom: 1px solid #5b6460;
@@ -167,8 +173,6 @@ color: #FFFFFF; */
   border: 1px solid tomato;
 }
 .facilities-title {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 300;
   font-size: 40px;
   line-height: 1;
@@ -184,9 +188,7 @@ color: #FFFFFF; */
   border: 1px solid tomato;
 }
 .contacts-title {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 40px;
   line-height: 1.5;
 
@@ -194,8 +196,6 @@ color: #FFFFFF; */
 }
 .address,
 .address a {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.87;
@@ -206,8 +206,6 @@ color: #FFFFFF; */
   border: 1px solid tomato;
 }
 .footer-title {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.87;
@@ -215,12 +213,20 @@ color: #FFFFFF; */
   /* color: #FFFFFF; */
 }
 .footer-copyright {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 2.14;
 
-  color: #efefef;
+  /* color: #efefef; */
   opacity: 0.7;
+}
+.footer-list a {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.71;
+  text-transform: uppercase;
+
+  /* color: #FFFFFF; */
 }
