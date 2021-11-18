@@ -53,9 +53,10 @@ body {
   font-style: normal;
 }
 
-.header {
-  border: 1px solid tomato;
+.container {
+  outline: 1px solid tomato;
 }
+
 .navigation-list a {
   font-family: "Open Sans Condensed", sans-serif;
   font-style: normal;
@@ -96,10 +97,9 @@ body {
   font-size: 20px;
   line-height: 1.4;
 }
-.hero-section {
+/* .hero-section {
   height: 700px;
-  border: 1px solid tomato;
-}
+} */
 .hero-title {
   font-weight: 300;
   font-size: 70px;
@@ -118,9 +118,6 @@ body {
 color: #FFFFFF; */
 }
 
-.cabins-section {
-  border: 1px solid tomato;
-}
 .cabins-title {
   font-weight: 400;
   font-size: 40px;
@@ -140,10 +137,6 @@ color: #FFFFFF; */
   line-height: 1.87;
   color: #5b6460;
   border-bottom: 1.5px solid #5b6460;
-}
-
-.forest-section {
-  border: 1px solid tomato;
 }
 
 .forest-title {
@@ -169,9 +162,7 @@ color: #FFFFFF; */
   border-bottom: 1px solid #5b6460;
   color: #5b6460;
 }
-.facilities-section {
-  border: 1px solid tomato;
-}
+
 .facilities-title {
   font-weight: 300;
   font-size: 40px;
@@ -180,13 +171,7 @@ color: #FFFFFF; */
   /* text-align: center;
 color: #FFFFFF; */
 }
-.about-section {
-  border: 1px solid tomato;
-}
 
-.contacts-section {
-  border: 1px solid tomato;
-}
 .contacts-title {
   font-weight: 400;
   font-size: 40px;
@@ -202,9 +187,6 @@ color: #FFFFFF; */
   color: #000000;
 }
 
-.footer {
-  border: 1px solid tomato;
-}
 .footer-title {
   font-weight: 600;
   font-size: 16px;
